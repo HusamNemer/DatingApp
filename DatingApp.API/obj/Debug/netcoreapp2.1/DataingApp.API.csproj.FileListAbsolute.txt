@@ -12,3 +12,17 @@ C:\Users\xhusa\OneDrive\سطح المكتب\angular\DatingApp\DatingApp.API\obj\
 C:\Users\xhusa\OneDrive\سطح المكتب\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.RazorTargetAssemblyInfo.cache
 C:\Users\xhusa\OneDrive\سطح المكتب\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.dll
 C:\Users\xhusa\OneDrive\سطح المكتب\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.pdb
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DataingApp.API.deps.json
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DataingApp.API.runtimeconfig.json
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DataingApp.API.runtimeconfig.dev.json
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DataingApp.API.dll
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DataingApp.API.pdb
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.csprojAssemblyReference.cache
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.csproj.CoreCompileInputs.cache
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.RazorAssemblyInfo.cache
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.RazorAssemblyInfo.cs
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.AssemblyInfoInputs.cache
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.AssemblyInfo.cs
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.RazorTargetAssemblyInfo.cache
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.dll
+C:\Users\hnemer\Desktop\Angular\angular\angular\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DataingApp.API.pdb

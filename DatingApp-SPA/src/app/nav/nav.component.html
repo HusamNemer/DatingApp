@@ -1,0 +1,51 @@
+<div class='container' style="margin-bottom: 5%">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark md-3">
+  <a class="navbar-brand" [routerLink]="['/home']"  >Navbar</a>
+ 
+
+ 
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item " routerLinkActive="active" >
+        <a class="nav-link" [routerLink]="['/home']"   >Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/list']"  >Lists</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link " [routerLink]="['/messages']" >chats</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <button class="nav-link " (click)="Logout()" >Logout</button>
+      </li>
+     
+    </ul>
+    
+   
+    <div class="btn-group" dropdown *ngIf="LoggedIn()">
+      <button type="button" class="btn btn-danger">{{authService.decoding.unique_name}}</button>
+      <button id="button-split" type="button" dropdownToggle class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+              aria-controls="dropdown-split">
+        <span class="caret"></span>
+        <span class="sr-only">Split button!</span>
+      </button>
+      <ul id="dropdown-split" *dropdownMenu class="dropdown-menu"
+          role="menu" aria-labelledby="button-split">
+        <li role="menuitem"><a class="dropdown-item" (click)="Logout()">logout</a></li>
+        <li role="menuitem" routerLinkActive="active" ><a class="dropdown-item" [routerLink]="['/EditProfile']">Edit my profile</a>
+        </li>
+        
+      </ul>
+    </div>
+
+    <form #LoginForm="ngForm" class="form-inline my-2 my-lg-0" (ngSubmit)="login()" *ngIf="!LoggedIn()">
+      <input class="form-control mr-sm-2" type="text" placeholder="username" name="username"
+      [(ngModel)]="model.username" >
+      <input class="form-control mr-sm-2" type="password" placeholder="password" name="password"
+       [(ngModel)]="model.password">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
+    
+  
+</nav>
+</div>
+<br>

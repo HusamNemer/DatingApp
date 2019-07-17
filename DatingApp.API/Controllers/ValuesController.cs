@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 using DatingApp.API.Data;
 using DatingApp.API.Model;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Authorization;
 namespace DataingApp.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
+    
     public class ValuesController : ControllerBase
     {
         private readonly DataContext _Dbcontext ;
